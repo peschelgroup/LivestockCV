@@ -12,7 +12,7 @@ Arguments:
 ----------
 Requires a path to your image.
 
-.. admonition:: Watch where you're going!
+.. note:: Watch where you're going!
    Since I am using Google Collab, I use a path within my Google Drive. Check the tab on "Basics of Google Collab" for more information. 
 
 
