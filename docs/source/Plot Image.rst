@@ -14,6 +14,8 @@ The first step to every image analysis problem is importing your image.
 Arguments:
 ----------
 Requires a path to your image.
+
+
 .. admonition:: Watch where you're going!
    Since I am using Google Collab, I use a path within my Google Drive. Check the tab on "Basics of Google Collab" for more information. 
 
@@ -23,13 +25,15 @@ Code:
 -----
 
 .. code:: python
+
+   import cv2
    import cv2
    from LivestockCV import core as LivestockCV_core
 
    img = cv2.imread('/content/drive/MyDrive/pig.jpg')
    print('  ')
    print('                           Original Raw Image')
-   ** LivestockCV_core.plot_image(img) **
+   * LivestockCV_core.plot_image(img) *
 
 
 
@@ -38,5 +42,5 @@ Results:
 
 .. figure:: /images/pig.png
    
-   ** Original Raw Image **
+   * Original Raw Image *
    

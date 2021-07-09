@@ -20,22 +20,25 @@ LivestockCV is designed for Google Colab, an interactive online notebook that ha
 Log into Google Colab using your Google account in the following link:
 https://colab.research.google.com/
 
-The very first step of using Colab is to always mount your drive by clicking the folder icon on the left tab. Below is a screenshot of what my screen looks like.
-This allows Colab to access your drive. You'll have to perform this step everytime you log back in or whenever Colab times out.
+The very first step of using Colab is to always mount your drive by clicking the **Folder Mount** |mount| button on the left tab. Below is a screenshot of what my screen looks like.
+This allows Colab to access your drive.
 
-.. figure:: /images/colab1.png
-   
-   *Make sure to mount your Google drive in order to access your media!*
+.. |mount| image:: /images/mount.png
 
+.. Tip::
+    You'll have to perform this step everytime you log back in or whenever Colab times out.
 
 (2) Installing LivestockCV
 ------------------------------
 
 Add a block of code and download the latest version of LivestockCV using this line:
 
-!pip install LivestockCV
+.. code:: python
 
-You'll only have to do this once, unless you find that LivestockCV has made a version update. 
+   !pip install LivestockCV
+
+.. Tip:: 
+   You'll only have to do this once, unless you find that LivestockCV has made a version update. 
 
 
 (3) Accessing your media
