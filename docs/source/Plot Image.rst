@@ -7,15 +7,15 @@ Context:
 The first step to every image analysis problem is importing your image.
 
 .. admonition:: Take advantage of Google Collab! 
-One of the advantages of using Google Collab is that the code is separated into individual blocks that we can run independently of the others. 
-This allows us to easily output an image at any step of our code, and check to see exactly what we're doing at each step. 
+   One of the advantages of using Google Collab is that the code is separated into individual blocks that we can run independently of the others. 
+   This allows us to easily output an image at any step of our code, and check to see exactly what we're doing at each step. 
 
 
 Arguments:
 ----------
 Requires a path to your image.
 .. admonition:: Watch where you're going!
-Since I am using Google Collab, I use a path within my Google Drive. Check the tab on "Basics of Google Collab" for more information. 
+   Since I am using Google Collab, I use a path within my Google Drive. Check the tab on "Basics of Google Collab" for more information. 
 
 
 
