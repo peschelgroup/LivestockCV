@@ -33,11 +33,10 @@ Code:
    img = cv2.imread('/content/drive/MyDrive/pig.jpg')
    print('  ')
    print('                           Original Raw Image')
-   ** LivestockCV_core.plot_image(img) **
+   LivestockCV_core.plot_image(img)
 
    s = LivestockCV_core.rgb2gray_hsv(rgb_img=img, channel='s')
    LivestockCV_core.plot_image(s)
-
 
    print('Threshold = 255 (Nothing gets through filter)')
    s_thresh_test_high = LivestockCV_core.threshold.binary(gray_img=s, threshold=255, max_value=255, object_type='light')
