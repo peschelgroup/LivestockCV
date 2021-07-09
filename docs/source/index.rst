@@ -1,10 +1,12 @@
+.. _Welcome!:
+
 Welcome to LivestockCV's documentation!
 =======================================
 Ryan Jeon, PhD Student, Iowa State University
 
 
 Background
-^^^^^^^^^^ 
+----------
 Create one Python package to assist animal scientists and agricultural engineers in analyzing image and video of livestock animals
 
 
@@ -12,7 +14,7 @@ Create one Python package to assist animal scientists and agricultural engineers
 
 
 List of Functions
-^^^^^^^^^^^^^^^^^
+-----------------
 
 * :ref:`function 1`
 * :ref:`function 2`
@@ -20,10 +22,24 @@ List of Functions
 
 
 Guide
-^^^^^
+-----
 
 .. toctree::
    :maxdepth: 2
    
    license
    help
+
+.. figure:: /images/pig.png
+   
+   *Our model*
+   
+   
+   
+
+.. toctree::
+   :maxdepth: 2
+   :caption: List of Functions
+   
+   Crop
+   Thresholding
