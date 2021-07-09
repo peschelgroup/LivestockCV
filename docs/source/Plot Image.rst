@@ -22,13 +22,14 @@ Requires a path to your image.
 Code:
 -----
 
-import cv2
-from LivestockCV import core as LivestockCV_core
+.. code:: python
+   import cv2
+   from LivestockCV import core as LivestockCV_core
 
-img = cv2.imread('/content/drive/MyDrive/pig.jpg')
-print('  ')
-print('                           Original Raw Image')
-** LivestockCV_core.plot_image(img) **
+   img = cv2.imread('/content/drive/MyDrive/pig.jpg')
+   print('  ')
+   print('                           Original Raw Image')
+   ** LivestockCV_core.plot_image(img) **
 
 
 
@@ -37,5 +38,5 @@ Results:
 
 .. figure:: /images/pig.png
    
-   *Original Raw Image*
+   ** Original Raw Image **
    

@@ -20,18 +20,20 @@ Requires a path to your image.
 Code:
 -----
 
-import cv2
-from LivestockCV import core as LivestockCV_core
+.. code:: python
 
-img = cv2.imread('/content/drive/MyDrive/pig.jpg')
-print('  ')
-print('                           Original Raw Image')
-LivestockCV_core.plot_image(img)
-** crop_img = LivestockCV_core.crop(img=img, x=40, y=40, h=300, w=250) **
-print('')
-print('  ')
-print('            Cropped Image')
-LivestockCV_core.plot_image(crop_img)
+   import cv2
+   from LivestockCV import core as LivestockCV_core
+
+   img = cv2.imread('/content/drive/MyDrive/pig.jpg')
+   print('  ')
+   print('                           Original Raw Image')
+   LivestockCV_core.plot_image(img)
+   ** crop_img = LivestockCV_core.crop(img=img, x=40, y=40, h=300, w=250) **
+   print('')
+   print('  ')
+   print('            Cropped Image')
+   LivestockCV_core.plot_image(crop_img)
 
 
 

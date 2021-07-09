@@ -53,9 +53,9 @@ These are the basics of using Colab, try your hand at some of these basic functi
 (5) Other functionalities!
 ---------------
 Here are some cool things we can do with LivestockCV
-* Calculating angles between lines
-* Measuring distance an animal moved
-* blah blah blah   
+ * Calculating angles between lines
+ * Measuring distance an animal moved
+ * blah blah blah   
    
 
 .. toctree::
