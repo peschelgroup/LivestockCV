@@ -38,7 +38,7 @@ Add a block of code and download the latest version of LivestockCV using this li
    !pip install LivestockCV
 
 .. Tip:: 
-   You'll only have to do this once, unless you find that LivestockCV has made a version update. 
+   You'll only have to do this once, unless you find that LivestockCV has made a version update.
 
 
 (3) Accessing your media
@@ -63,13 +63,17 @@ Here are some cool things we can do with LivestockCV
 
 .. toctree::
    :maxdepth: 3
-   :caption: List of Functions
+   :caption: List of Core Functions
    
    Crop
    Plot Image
    Thresholding
    
+.. toctree::
+   :maxdepth: 1
+   :caption: List of Video Functions
    
+   Frame Count
    
 .. toctree::
    :maxdepth: 2

@@ -74,5 +74,28 @@ Results:
 ~~~~~~~~
 
 .. figure:: /images/pig.png
+Original Raw Image
+      
+      
+.. figure:: /images/t255.png
+Threshold = 255 (Here, every pixel is filtered as black) 
+
+
+.. figure:: /images/t150.png
+Threshold = 150
+
+
+.. figure:: /images/t105.png
+Threshold = 105
+
+
+.. figure:: /images/t35.png
+Threshold = 35
    
-   ** Original Raw Image **
+   
+.. figure:: /images/t15.png
+Threshold = 15 (Perfect!)
+
+
+.. figure:: /images/t0.png
+Threshold = 0 (Looks like a threshold of 0 causes some pixelation) 
