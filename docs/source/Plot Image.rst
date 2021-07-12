@@ -16,8 +16,8 @@ Arguments:
 Requires a path to your image.
 
 
-.. admonition:: Watch where you're going!
-   Since I am using Google Collab, I use a path within my Google Drive. Check the tab on "Basics of Google Collab" for more information. 
+.. Tip:: 
+   Since I am using Google Collab, I use a path within my Google Drive. Check the home page for the Basics of Google Collab if you need help. 
 
 
 
@@ -33,7 +33,7 @@ Code:
    img = cv2.imread('/content/drive/MyDrive/pig.jpg')
    print('  ')
    print('                           Original Raw Image')
-   * LivestockCV_core.plot_image(img) *
+   LivestockCV_core.plot_image(img)
 
 
 
@@ -42,5 +42,5 @@ Results:
 
 .. figure:: /images/pig.png
    
-   * Original Raw Image *
+   **Original Raw Image**
    

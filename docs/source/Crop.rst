@@ -46,10 +46,10 @@ Results:
 
 .. figure:: /images/pig.png
    
-   *Original Raw Image*
+   **Original Raw Image**
    
 
 .. figure:: /images/crop.png
    
-   *Cropped Image*
+   **Cropped Image**
    
