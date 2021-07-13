@@ -56,6 +56,7 @@ These are the basics of using Colab, try your hand at some of these basic functi
 (5) Other functionalities!
 ---------------
 Here are some cool things we can do with LivestockCV
+ * Object detection
  * Calculating angles between lines
  * Measuring distance an animal moved
  * blah blah blah   
@@ -71,10 +72,12 @@ Here are some cool things we can do with LivestockCV
    Thresholding
    
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :caption: List of Video Functions
    
+   Face Detection
    Frame Count
+   
    
 .. toctree::
    :maxdepth: 2
