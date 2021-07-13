@@ -9,6 +9,9 @@ This function makes use of your webcam to snap a selfie, and can detect your fac
 
 In this case, we make use of a simple cascade algorithm that can help us find that Hollywood smile. 
 
+.. Tip::
+   Lighting conditions and complex backgrounds can cause unexpected results in object detection.  
+
 
 Arguments:
 ----------
@@ -34,7 +37,7 @@ Code:
      print(str(err))
 
 .. Warning::
-   Make sure to check your privacy settings as you'll likely need to grant permission   
+   Make sure to check your privacy settings as you'll likely need to grant permission for access to your webcam   
 
 Results:
 --------
