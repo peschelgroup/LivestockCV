@@ -6,6 +6,7 @@ Context:
 
 One of the trickiest gotchas of Google Colab is connecting your webcam. Lucky for us, LivestockCV has a function for accessing your webcam!
 This function makes use of your webcam to snap a selfie, and can detect your face. This is the basics of object detection, and the principles can be applied to livestock detection as well.
+
 In this case, we make use of a simple cascade algorithm that can help us find that Hollywood smile. 
 
 
@@ -15,6 +16,7 @@ Requires:
  * a short snippet of code
  * A webcam! 
 
+ 
 
 Code:
 -----
@@ -31,7 +33,8 @@ Code:
    except Exception as err:
      print(str(err))
 
-
+.. Warning::
+   Make sure to check your privacy settings as you'll likely need to grant permission   
 
 Results:
 --------
