@@ -77,8 +77,15 @@ Here are some cool things we can do with LivestockCV
    
    Face Detection
    Frame Count
+
+.. toctree::
+   :maxdepth: 2
+   :caption: List of Deep Learning Functions
    
-   
+   Typical SAT Math Problem 
+   Animal Classifier    
+
+
 .. toctree::
    :maxdepth: 2
    :caption: Licensing
