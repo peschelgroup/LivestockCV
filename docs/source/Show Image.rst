@@ -1,4 +1,4 @@
-Plot Image
+Show Image
 =========
 
 Context:
@@ -7,7 +7,8 @@ Context:
 The first step to every image analysis problem is importing your image.
 If you would like to show your image at any point in your analysis pipeline, on your screen, use either (1) plot image or (2) show image.
 
-.. tip:: use plot_image to plot an image with x/y bars
+.. tip:: use show_image for a clean image
+
 
 Arguments:
 ----------
@@ -28,16 +29,16 @@ Code:
    from LivestockCV import core as LivestockCV_core
 
    img = cv2.imread('/content/drive/MyDrive/pig.jpg')
-   print('  ')
+
    print('                           Original Raw Image')
-   LivestockCV_core.plot_image(img)
+   LivestockCV_core.show_image(img)
 
 
 
 Results:
 --------
 
-.. figure:: /images/pig.png
+.. figure:: /images/showimage.png
    
    **Original Raw Image**
    

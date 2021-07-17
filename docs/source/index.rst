@@ -3,6 +3,7 @@
 Welcome to LivestockCV's documentation!
 =======================================
 Ryan Jeon, PhD Student, Iowa State University
+ryanjeon@iastate.edu
 
 
 Objective
@@ -63,7 +64,7 @@ Here are some cool things we can do with LivestockCV
    
 
 .. toctree::
-   :maxdepth: 6
+   :maxdepth: 8
    :caption: List of Core Functions
    
    Blur (Gaussian)
@@ -73,6 +74,7 @@ Here are some cool things we can do with LivestockCV
    RGB2Gray
    Invert
    Rotate
+   Show Image
    
 .. toctree::
    :maxdepth: 2
@@ -83,7 +85,7 @@ Here are some cool things we can do with LivestockCV
 
 .. toctree::
    :maxdepth: 2
-   :caption: List of Deep Learning Functions
+   :caption: List of Deep Learning Functions (TBD)
    
    Typical SAT Math Problem 
    Animal Classifier    
