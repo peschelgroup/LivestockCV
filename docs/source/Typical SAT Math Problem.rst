@@ -13,14 +13,12 @@ Traditional programming takes rules and data to get answers.
 
 Machine learning however, is taking the answers and data, to give us the rules.
 
-Please read my blog post(?) on "Machine Learning for Animal Scientists"
 
 
-Here is a typical SAT math problem I remember encountering frequently.
-X = -1, 0, 1, 2, 3, 4
-Y = -11, -1, 9, 19, 29, 39
 
-Find the formula (f(x) = ____) that satisfies the above.
+
+
+
 
 It doesn't matter what the answer is (Y = 10x - 1) but moreso, how you would have came up with the answer.
 
