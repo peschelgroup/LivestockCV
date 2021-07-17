@@ -12,7 +12,8 @@ Thresholding is a simplification technique we can apply to images. In the most s
 What grayscale conversion does is it transforms the values of all the pixels into a scale of 0-255. By setting a threshold value we can uniformly convert values below our threshold to black. 
 
 .. note::
-   Total black is the absence of light, therefore, the pixel value of pitch black is 0. Conversely, 255 is the lucent illumination of pure white. 
+   Total black is the absence of light, therefore, the pixel value of pitch black is 0. 
+   Conversely, 255 is the illumination of pure white. 
 
 Arguments:
 ~~~~~~~~

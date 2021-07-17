@@ -72,6 +72,7 @@ Here are some cool things we can do with LivestockCV
    Thresholding
    RGB2Gray
    Invert
+   Rotate
    
 .. toctree::
    :maxdepth: 2

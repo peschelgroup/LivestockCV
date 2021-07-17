@@ -17,6 +17,7 @@ Arguments:
 Requires:
  * a short snippet of code
  * A webcam! 
+ * Your permission to access your webcam
 
  
 

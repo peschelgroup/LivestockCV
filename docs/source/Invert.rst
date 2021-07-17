@@ -7,12 +7,15 @@ Invert
 Context:
 ~~~~~~~~
 
-After thresholding or grayscaling, you may find particular use in inverting the image. White values are black and black values are white. Gray pixel values are also inverted.
+After thresholding or grayscaling, you may find particular use in inverting the image. 
+White values are black and black values are white. 
+Gray pixel values are also inverted.
  
 
 Arguments:
 ~~~~~~~~
  * Requires a path to your image.
+ * Grayscaled image. Using a RGB image will be spooky! 
 
 
 Code:
@@ -44,6 +47,9 @@ Original Raw Image
       
 .. figure:: /images/gray.png
 This is what our pig looks like in grayscale
+
+.. note::
+notice the inversion of the background and the pigs eye
 
 .. figure:: /images/invert.png
 This is what our pig looks like inverted!
