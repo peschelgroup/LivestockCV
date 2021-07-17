@@ -63,13 +63,15 @@ Here are some cool things we can do with LivestockCV
    
 
 .. toctree::
-   :maxdepth: 4
+   :maxdepth: 6
    :caption: List of Core Functions
    
    Blur (Gaussian)
    Crop
    Plot Image
    Thresholding
+   RGB2Gray
+   Invert
    
 .. toctree::
    :maxdepth: 2

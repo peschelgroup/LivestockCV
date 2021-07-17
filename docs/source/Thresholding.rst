@@ -11,7 +11,7 @@ Often times we might found ourselves needing to make a silhouette of our animal 
 Thresholding is a simplification technique we can apply to images. In the most simplest terms, we first take an RGB image, and convert it to grayscale.
 What grayscale conversion does is it transforms the values of all the pixels into a scale of 0-255. By setting a threshold value we can uniformly convert values below our threshold to black. 
 
-.. admonition:: Happiness can be found in the darkest of times, if one only remembers to turn on the light
+.. note::
    Total black is the absence of light, therefore, the pixel value of pitch black is 0. Conversely, 255 is the lucent illumination of pure white. 
 
 Arguments:
