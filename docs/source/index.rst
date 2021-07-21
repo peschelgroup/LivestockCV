@@ -1,6 +1,6 @@
 .. _Welcome!:
 
-Welcome to LivestockCV's documentation!
+LivestockCV's documentation
 =======================================
 Ryan Jeon, PhD Student, Iowa State University
 ryanjeon@iastate.edu
@@ -64,17 +64,25 @@ Here are some cool things we can do with LivestockCV
    
 
 .. toctree::
-   :maxdepth: 11
-   :caption: List of Core Functions
+   :maxdepth: 20
+   :caption: List of LivestockCV's Core Functions
    
+   Canny Edge Detection
    Blur (Gaussian)
    CalculateAngle
-   Contour
+   Contouring
+   Max Contouring
    Crop
+   Dilation
+   Erosion
    Dimensions
    Invert
    Plot Image
+   Region of Interest (ROI)
    RGB2Gray
+   RGB to HSV
+   RGB to CMYK
+   RGB to LAB
    Rotate
    Show Image
    Thresholding
