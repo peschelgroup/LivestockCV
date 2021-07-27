@@ -9,6 +9,10 @@ Context:
 Arguments:
 ----------
 
+ * Image path
+ * Erosion parameter 1
+ * Erosion parameter 2
+
 
 Code:
 -----
@@ -16,8 +20,13 @@ Code:
 .. code:: python
 
    import cv2
-   from LivestockCV import core as LivestockCV_core
+   from LivestockCV import core as lcv
 
+   img = cv2.imread('/content/drive/MyDrive/pig.jpg')
+
+
+   eroded = lcv.erode(img, 10, 1)
+   lcv.show_image(eroded)
 
 
 
@@ -30,4 +39,6 @@ Results:
    **Original Raw Image**
    
 
+.. figure:: /images/erode.png
    
+   **Eroded Raw Image**
