@@ -71,7 +71,7 @@ Here are some cool things we can do with LivestockCV
    Blur (Gaussian)
    CalculateAngle
    Contouring
-   Max Contouring
+   Max Contour
    Crop
    Dilation
    Erosion
