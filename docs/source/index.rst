@@ -70,7 +70,7 @@ Here are some cool things we can do with LivestockCV
    Canny Edge Detection
    Blur (Gaussian)
    CalculateAngle
-   Contouring
+   Contour
    Max Contour
    Crop
    Dilation
