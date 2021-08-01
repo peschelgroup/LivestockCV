@@ -2,8 +2,9 @@
 
 LivestockCV's documentation
 =======================================
-Ryan Jeon, PhD Student, Iowa State University
+Ryan L. Jeon, PhD Student, Iowa State University
 ryanjeon@iastate.edu
+
 
 
 Objective
